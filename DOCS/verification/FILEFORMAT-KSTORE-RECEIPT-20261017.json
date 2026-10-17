@@ -29,12 +29,13 @@
       "source_type": "admin-manual",
       "sha256": "435a6801baa9450a593d72c2252cf68dca6e83a117a6e6d5b1c72b846f85f6a5",
       "byte_exact_readback": true,
-      "verified_at": "2026-10-17T19:27:11.811744+00:00"
+      "verified_at": "2026-10-17T19:28:01.040609+00:00"
     },
     "index_verification": {
       "verified": false,
       "error": "uuid set mismatch: postgres 5 vs qdrant 0 entities at head revision"
-    }
+    },
+    "final_readback_at_utc": "2026-10-17T19:28:01.024160+00:00"
   },
   {
     "path": "TOOLING_CONVENTIONS/multiplatform-application-default.md",
@@ -62,12 +63,13 @@
       "source_type": "admin-manual",
       "sha256": "ebfd22daff28e25d0ec3126db9a78e90d5aad57fca9377b9b1ee079edae6d011",
       "byte_exact_readback": true,
-      "verified_at": "2026-10-17T19:27:13.928302+00:00"
+      "verified_at": "2026-10-17T19:28:02.153356+00:00"
     },
     "index_verification": {
       "verified": false,
       "error": "uuid set mismatch: postgres 1 vs qdrant 0 entities at head revision"
-    }
+    },
+    "final_readback_at_utc": "2026-10-17T19:28:02.138313+00:00"
   },
   {
     "path": "vociferous-cloner-studio/DOCS/FILEFORMAT.md",
@@ -88,12 +90,13 @@
       "source_type": "coding",
       "sha256": "fae8d89eac27aeec135016f728b2f442e7c0878d178958622c70a6f085da6c5f",
       "byte_exact_readback": true,
-      "verified_at": "2026-10-17T19:27:15.905632+00:00"
+      "verified_at": "2026-10-17T19:28:03.190387+00:00"
     },
     "index_verification": {
       "verified": false,
       "error": "uuid set mismatch: postgres 10 vs qdrant 0 entities at head revision"
-    }
+    },
+    "final_readback_at_utc": "2026-10-17T19:28:03.169868+00:00"
   },
   {
     "path": "vociferous-cloner-studio/DOCS/ARCHITECTURE.md",
@@ -114,11 +117,12 @@
       "source_type": "coding",
       "sha256": "dd92dfc6454f4e741d08160523e87409d1c7398f2a24b0ae66f5f85d2f562ba6",
       "byte_exact_readback": true,
-      "verified_at": "2026-10-17T19:27:17.816868+00:00"
+      "verified_at": "2026-10-17T19:28:04.187283+00:00"
     },
     "index_verification": {
       "verified": false,
       "error": "uuid set mismatch: postgres 10 vs qdrant 0 entities at head revision"
-    }
+    },
+    "final_readback_at_utc": "2026-10-17T19:28:04.161457+00:00"
   }
 ]
