@@ -1,0 +1,128 @@
+[
+  {
+    "path": "FILEFORMAT.md",
+    "source": "admin-manual",
+    "sha256": "435a6801baa9450a593d72c2252cf68dca6e83a117a6e6d5b1c72b846f85f6a5",
+    "duplicate": false,
+    "indexing": "pending",
+    "doc_uuid": "01a14b54-22df-8001-9df5-137e91642643",
+    "revision": 2,
+    "chunks": 5,
+    "entity_uuids": [
+      "01a14b55-191a-8001-9e13-467bb8f753c6",
+      "01a14b55-1946-8001-9e14-155ef23213ad",
+      "01a14b55-1961-8001-9e15-248c35e6a4f7",
+      "01a14b55-1997-8001-9e16-3d52bb17581c",
+      "01a14b55-19ad-8001-9e17-d8525b439bee"
+    ],
+    "written_at": "2026-10-17T19:27:11.072956+00:00",
+    "verified": {
+      "doc_uuid": "01a14b54-22df-8001-9df5-137e91642643",
+      "revision": 2,
+      "revision_sha256": "435a6801baa9450a593d72c2252cf68dca6e83a117a6e6d5b1c72b846f85f6a5",
+      "byte_exact_readback": true,
+      "postgres_entities": 5
+    },
+    "served": {
+      "doc_uuid": "01a14b54-22df-8001-9df5-137e91642643",
+      "revision": 2,
+      "source_type": "admin-manual",
+      "sha256": "435a6801baa9450a593d72c2252cf68dca6e83a117a6e6d5b1c72b846f85f6a5",
+      "byte_exact_readback": true,
+      "verified_at": "2026-10-17T19:28:01.040609+00:00"
+    },
+    "index_verification": {
+      "verified": false,
+      "error": "uuid set mismatch: postgres 5 vs qdrant 0 entities at head revision"
+    },
+    "final_readback_at_utc": "2026-10-17T19:28:01.024160+00:00"
+  },
+  {
+    "path": "TOOLING_CONVENTIONS/multiplatform-application-default.md",
+    "source": "admin-manual",
+    "sha256": "ebfd22daff28e25d0ec3126db9a78e90d5aad57fca9377b9b1ee079edae6d011",
+    "duplicate": false,
+    "indexing": "pending",
+    "doc_uuid": "01a14b54-2d32-8001-9dfb-a9ee111321e3",
+    "revision": 2,
+    "chunks": 1,
+    "entity_uuids": [
+      "01a14b55-2395-8001-9e18-5e8281cf349e"
+    ],
+    "written_at": "2026-10-17T19:27:13.375539+00:00",
+    "verified": {
+      "doc_uuid": "01a14b54-2d32-8001-9dfb-a9ee111321e3",
+      "revision": 2,
+      "revision_sha256": "ebfd22daff28e25d0ec3126db9a78e90d5aad57fca9377b9b1ee079edae6d011",
+      "byte_exact_readback": true,
+      "postgres_entities": 1
+    },
+    "served": {
+      "doc_uuid": "01a14b54-2d32-8001-9dfb-a9ee111321e3",
+      "revision": 2,
+      "source_type": "admin-manual",
+      "sha256": "ebfd22daff28e25d0ec3126db9a78e90d5aad57fca9377b9b1ee079edae6d011",
+      "byte_exact_readback": true,
+      "verified_at": "2026-10-17T19:28:02.153356+00:00"
+    },
+    "index_verification": {
+      "verified": false,
+      "error": "uuid set mismatch: postgres 1 vs qdrant 0 entities at head revision"
+    },
+    "final_readback_at_utc": "2026-10-17T19:28:02.138313+00:00"
+  },
+  {
+    "path": "vociferous-cloner-studio/DOCS/FILEFORMAT.md",
+    "source": "coding",
+    "sha256": "fae8d89eac27aeec135016f728b2f442e7c0878d178958622c70a6f085da6c5f",
+    "duplicate": true,
+    "indexing": "not-checked",
+    "verified": {
+      "doc_uuid": "01a14b54-3624-8001-9dfd-567615509bf9",
+      "revision": 1,
+      "revision_sha256": "fae8d89eac27aeec135016f728b2f442e7c0878d178958622c70a6f085da6c5f",
+      "byte_exact_readback": true,
+      "postgres_entities": 10
+    },
+    "served": {
+      "doc_uuid": "01a14b54-3624-8001-9dfd-567615509bf9",
+      "revision": 1,
+      "source_type": "coding",
+      "sha256": "fae8d89eac27aeec135016f728b2f442e7c0878d178958622c70a6f085da6c5f",
+      "byte_exact_readback": true,
+      "verified_at": "2026-10-17T19:28:03.190387+00:00"
+    },
+    "index_verification": {
+      "verified": false,
+      "error": "uuid set mismatch: postgres 10 vs qdrant 0 entities at head revision"
+    },
+    "final_readback_at_utc": "2026-10-17T19:28:03.169868+00:00"
+  },
+  {
+    "path": "vociferous-cloner-studio/DOCS/ARCHITECTURE.md",
+    "source": "coding",
+    "sha256": "dd92dfc6454f4e741d08160523e87409d1c7398f2a24b0ae66f5f85d2f562ba6",
+    "duplicate": true,
+    "indexing": "not-checked",
+    "verified": {
+      "doc_uuid": "01a14b54-407d-8001-9e08-f644353e298b",
+      "revision": 1,
+      "revision_sha256": "dd92dfc6454f4e741d08160523e87409d1c7398f2a24b0ae66f5f85d2f562ba6",
+      "byte_exact_readback": true,
+      "postgres_entities": 10
+    },
+    "served": {
+      "doc_uuid": "01a14b54-407d-8001-9e08-f644353e298b",
+      "revision": 1,
+      "source_type": "coding",
+      "sha256": "dd92dfc6454f4e741d08160523e87409d1c7398f2a24b0ae66f5f85d2f562ba6",
+      "byte_exact_readback": true,
+      "verified_at": "2026-10-17T19:28:04.187283+00:00"
+    },
+    "index_verification": {
+      "verified": false,
+      "error": "uuid set mismatch: postgres 10 vs qdrant 0 entities at head revision"
+    },
+    "final_readback_at_utc": "2026-10-17T19:28:04.161457+00:00"
+  }
+]
