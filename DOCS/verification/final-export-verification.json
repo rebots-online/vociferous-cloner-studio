@@ -1,0 +1,38 @@
+[
+  {
+    "purpose": "production-reference",
+    "exportId": "e845d85a-354c-40bc-b59a-27bf406d0fe2",
+    "creator": {
+      "appId": "mba.robin.vociferous-cloner-studio",
+      "name": "Vociferous Cloner Studio",
+      "url": "https://github.com/rebots-online/vociferous-cloner-studio",
+      "version": "0.1.0",
+      "commit": "25153eb57a5e9c20626497b16e34781be0becc57"
+    },
+    "fileCount": 3,
+    "modelFileCount": 13,
+    "duration": 1.04,
+    "crc": "pass",
+    "fileHashes": "pass",
+    "wav": "mono PCM16 24000Hz",
+    "weightsIncluded": false
+  },
+  {
+    "purpose": "private-working",
+    "exportId": "7024ed77-16c5-427e-a901-1696027a99bc",
+    "creator": {
+      "appId": "mba.robin.vociferous-cloner-studio",
+      "name": "Vociferous Cloner Studio",
+      "url": "https://github.com/rebots-online/vociferous-cloner-studio",
+      "version": "0.1.0",
+      "commit": "25153eb57a5e9c20626497b16e34781be0becc57"
+    },
+    "fileCount": 5,
+    "modelFileCount": 13,
+    "duration": 3,
+    "crc": "pass",
+    "fileHashes": "pass",
+    "wav": "mono PCM16 24000Hz",
+    "weightsIncluded": false
+  }
+]
