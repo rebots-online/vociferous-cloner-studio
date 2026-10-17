@@ -226,7 +226,7 @@ async function handleRequest(data: WorkerRequest): Promise<void> {
       inputRejected=true;
       const t=data.tuning;
       if(!t||!Number.isFinite(t.temperature)||t.temperature<.2||t.temperature>1.5||!Number.isInteger(t.topK)||t.topK<1||t.topK>6563||!Number.isFinite(t.topP)||t.topP<.05||t.topP>1||!Number.isFinite(t.repetitionPenalty)||t.repetitionPenalty<1||t.repetitionPenalty>2)throw Error('Invalid sampling controls');
-      if(data.samples!==null && (!(data.samples instanceof Float32Array)||data.samples.length<24000||data.samples.length>LIMITS.referenceSamples||!data.samples.every(Number.isFinite)))throw Error('Reference must be finite24k mono PCM of1–10seconds');
+      if(data.samples!==null && (!(data.samples instanceof Float32Array)||data.samples.length<24000||data.samples.length>LIMITS.referenceSamples||!data.samples.every(Number.isFinite)))throw Error('Reference must be finite24k mono PCM of1–10seconds');      inputRejected=false;
       if(cancelled.has(data.id))throw new DOMException('Speech interrupted.','AbortError');
       if(references.has(data.voice)){disposeTensors(references.get(data.voice)!);references.delete(data.voice);}
       if(data.samples)previewSamples.set(data.voice,data.samples.slice());else previewSamples.delete(data.voice);
