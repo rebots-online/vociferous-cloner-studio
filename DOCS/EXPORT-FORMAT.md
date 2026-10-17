@@ -1,5 +1,11 @@
 # Portable voice package v1
 
+This describes the currently implemented exporter/importer. The forward standard
+for self-describing formats and the new voice iteration profile is
+[FILEFORMAT.md](FILEFORMAT.md). Its v2 envelope is a specification, not an
+implemented feature. Preserve v1 identity and require explicit migration; do not
+claim that existing v1 files contain the embedded schemas/docs required by v2.
+
 The container is a standard ZIP using stored entries, UTF-8 paths and CRC32. Media
 is standard mono PCM16 RIFF/WAVE at 24 kHz. The JSON manifest has schema
 `vociferous.voice-package/v1`; it is a product schema, not a claim of an external

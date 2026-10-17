@@ -1,5 +1,23 @@
 # Vociferous Cloner Studio
 
+## Forward standalone/multiplatform contract — 2026-10-17
+
+- [X] Specify organizational self-describing file standard in DOCS/FILEFORMAT.md
+  and reconcile current v1 versus required v2 semantics.
+- [X] Record Tauri 2 Windows/Linux/Web/Android as the early architecture default;
+  describe optional Qt6 work as tasks, without elapsed-time estimates.
+- [ ] Implement shared core commands/events and platform/runtime interfaces.
+- [ ] Implement model/preset registry, capability-driven controls and model adapters.
+- [ ] Implement FILEFORMAT.md schemas/envelope, per-iteration save and v1 migration.
+- [ ] Implement standalone rendered audio and generic reusable/project outputs;
+  replace mandatory Natally consumer metadata with explicit output contracts.
+- [ ] Implement headless CLI workflows and supported model execution.
+- [ ] Implement Tauri 2 shells/native services and standalone Web adapters.
+- [ ] Build Windows executable/installer, Linux AppImage and Android package;
+  verify actual installation, inference/audio, lifecycle and cross-platform reopen.
+
+## Existing Web UI implementation and evidence
+
 - [X] Inspect initialized repository, CodeGraph status/integrity, origin and parent instructions.
 - [X] Close W01–W12 architecture/inventory before code.
 - [X] W01/W02: standalone loopback app, private storage, types and exact dependencies.

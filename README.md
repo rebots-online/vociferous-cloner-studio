@@ -4,6 +4,20 @@ A private, local Web UI for ingesting voice recordings, building a reference,
 auditioning Chatterbox voices, comparing revisions and exporting a reusable voice.
 It is separate from Natally and can serve other YouTube Creator Tools projects.
 
+The product direction is a standalone application with CLI and Web UI, using the
+organizational Tauri 2 default for Windows, Linux, Web and Android. Model/preset
+selection, additional cloning adapters, native packaging and the new iteration
+format are specified work, not capabilities of the current release. Qt6 remains
+an optional client behind the shared core contracts. See
+[architecture](DOCS/ARCHITECTURE.md) and the forward
+[file-format standard](DOCS/FILEFORMAT.md).
+
+Vociferous is a separate spinoff inspired by Natally, intended to earn its keep
+as an independent tool for YouTubers and other content creators. Web consumption
+is one output use. Rendered audio, reusable voice/reference packages and private
+working iterations serve native/mobile apps, CLI pipelines and creator tools too;
+Natally is an optional consumer integration.
+
 Run on native Windows with Node and npm:
 
 ```powershell
