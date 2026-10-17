@@ -1,0 +1,22 @@
+{
+  "name": "vociferous-cloner-studio",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Local operator voice conditioning, audition and portable preset exports",
+  "homepage": "https://github.com/rebots-online/vociferous-cloner-studio",
+  "scripts": {
+    "dev": "node server.mjs",
+    "build": "vite build",
+    "check": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@huggingface/transformers": "4.3.1",
+    "onnxruntime-web": "1.31.0-dev.20260914-8d85527a0",
+    "vite": "8.3.4"
+  },
+  "devDependencies": {
+    "typescript": "7.0.2",
+    "@types/node": "22.14.0"
+  }
+}
